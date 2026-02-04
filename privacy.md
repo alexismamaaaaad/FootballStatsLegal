@@ -1,8 +1,8 @@
-# Privacy Policy - Mamad Football Stats
+# Privacy Policy - foot_stats_mediterranee
 
 **Last Updated: January 2026**
 
-This Privacy Policy describes how "Mamad Football Stats" (the "App") handles data when you use the TikTok API.
+This Privacy Policy describes how "foot_stats_mediterranee" (the "App") handles data when you use the TikTok API.
 
 ### 1. Data Collection
 The App only accesses data that you explicitly authorize via the TikTok OAuth screen. This may include:

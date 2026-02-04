@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foot Méditerranée IA</title>
+    <style>
+        :root {
+            --primary-green: #2ecc71;
+            --dark-bg: #1a1a1a;
+            --text-light: #ffffff;
+            --gray-text: #a0a0a0;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--dark-bg);
+            color: var(--text-light);
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            text-align: center;
+        }
+
+        .container {
+            max-width: 600px;
+            padding: 2rem;
+            border-radius: 20px;
+            background: linear-gradient(145deg, #222, #111);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+            border: 1px solid #333;
+        }
+
+        .emoji-header {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+        }
+
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 1.5rem;
+            line-height: 1.4;
+        }
+
+        .highlight {
+            color: var(--primary-green);
+        }
+
+        p {
+            font-size: 1.2rem;
+            color: var(--gray-text);
+            line-height: 1.6;
+            margin-bottom: 2rem;
+        }
+
+        .ai-badge {
+            display: inline-block;
+            background-color: rgba(46, 204, 113, 0.1);
+            border: 1px solid var(--primary-green);
+            color: var(--primary-green);
+            padding: 0.5rem 1rem;
+            border-radius: 50px;
+            font-weight: bold;
+            font-size: 0.9rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .cta-button {
+            display: block;
+            margin-top: 2rem;
+            padding: 1rem 2rem;
+            background-color: var(--primary-green);
+            color: black;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 10px;
+            transition: transform 0.2s;
+        }
+
+        .cta-button:hover {
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="emoji-header">⚽</div>
+        <h1>Toutes les stats et classements des <span class="highlight">championnats amateurs</span> de Méditerranée !</h1>
+        
+        <div class="ai-badge">Propulsé par l'Intelligence Artificielle</div>
+        
+        <p>Analysé, conçu et débriefé par une <strong>IA</strong>. 🤖</p>
+        
+        <a href="#" class="cta-button">Découvrir l'App</a>
+    </div>
+
+</body>
+</html>
