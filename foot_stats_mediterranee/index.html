@@ -26,16 +26,25 @@
 
         .container {
             max-width: 600px;
-            padding: 2rem;
+            padding: 2.5rem;
             border-radius: 20px;
             background: linear-gradient(145deg, #222, #111);
             box-shadow: 0 10px 30px rgba(0,0,0,0.5);
             border: 1px solid #333;
         }
 
-        .emoji-header {
-            font-size: 3rem;
-            margin-bottom: 1rem;
+        /* Profile Picture Styling */
+        .profile-pic-container {
+            margin-bottom: 1.5rem;
+        }
+
+        .profile-pic {
+            width: 250px;
+            height: 250px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 3px solid var(--primary-green);
+            box-shadow: 0 0 15px rgba(46, 204, 113, 0.3);
         }
 
         h1 {
@@ -77,18 +86,42 @@
             text-decoration: none;
             font-weight: bold;
             border-radius: 10px;
-            transition: transform 0.2s;
+            transition: transform 0.2s, background-color 0.2s;
         }
 
         .cta-button:hover {
             transform: scale(1.05);
+            background-color: #27ae60;
+        }
+
+        footer {
+            margin-top: 2.5rem;
+            padding-top: 1.5rem;
+            border-top: 1px solid #333;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .legal-link {
+            color: var(--gray-text);
+            text-decoration: none;
+            font-size: 0.85rem;
+            transition: color 0.2s;
+        }
+
+        .legal-link:hover {
+            color: var(--primary-green);
         }
     </style>
 </head>
 <body>
 
     <div class="container">
-        <div class="emoji-header">⚽</div>
+        <div class="profile-pic-container">
+            <img src="med_stats.jpg" alt="Foot Méditerranée Stats" class="profile-pic">
+        </div>
+
         <h1>Toutes les stats et classements des <span class="highlight">championnats amateurs</span> de Méditerranée !</h1>
         
         <div class="ai-badge">Propulsé par l'Intelligence Artificielle</div>
@@ -96,6 +129,11 @@
         <p>Analysé, conçu et débriefé par une <strong>IA</strong>. 🤖</p>
         
         <a href="#" class="cta-button">Découvrir l'App</a>
+
+        <footer>
+            <a href="terms.md" target="_blank" class="legal-link">Conditions d'Utilisation</a>
+            <a href="privacy.md" target="_blank" class="legal-link">Confidentialité</a>
+        </footer>
     </div>
 
 </body>
